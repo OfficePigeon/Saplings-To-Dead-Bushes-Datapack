@@ -1,0 +1,12 @@
+{
+	"pack": {
+		"pack_format": 57,
+		"supported_formats": {
+			"min_inclusive": 57,
+			"max_inclusive": 95
+		},
+		"min_format": 57,
+		"max_format": 95,
+		"description": "Make Dead Bushes renewable by smelting Saplings"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"wich:sapling_to_dead_bush"
+		]
+	},
+	"criteria": {
+		"has_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:saplings"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "wich:sapling_to_dead_bush"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sapling",
+			"has_the_recipe"
+		]
+	]
+}
